@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+	"dependencies": {
+		"input": "^1.0.1",
+		"qrcode-terminal": "^0.12.0",
+		"telegram": "^2.25.4"
+	}
+}
