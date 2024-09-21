@@ -26,7 +26,7 @@ const main = async () => {
         console.log(`使用telegram手机端扫描以下二维码登录:`);
         qrcode.generate(
           `tg://login?token=${code.token.toString("base64url")}`,
-          { small: true }
+          { small: false }
         );
       },
       password: async () => f2apwd,
